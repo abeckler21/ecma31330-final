@@ -1,0 +1,84 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}         &     trumpft      & \textbf{  R-squared:         } &     0.874   \\
+\textbf{Model:}                 &       OLS        & \textbf{  Adj. R-squared:    } &     0.874   \\
+\textbf{Method:}                &  Least Squares   & \textbf{  F-statistic:       } &     1153.   \\
+\textbf{Date:}                  & Thu, 13 Mar 2025 & \textbf{  Prob (F-statistic):} &     0.00    \\
+\textbf{Time:}                  &     15:12:38     & \textbf{  Log-Likelihood:    } &   -32617.   \\
+\textbf{No. Observations:}      &        7998      & \textbf{  AIC:               } & 6.533e+04   \\
+\textbf{Df Residuals:}          &        7949      & \textbf{  BIC:               } & 6.567e+04   \\
+\textbf{Df Model:}              &          48      & \textbf{                     } &             \\
+\textbf{Covariance Type:}       &    nonrobust     & \textbf{                     } &             \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}                  &      35.5316  &        2.232     &    15.919  &         0.000        &       31.156    &       39.907     \\
+\textbf{pocketEval}             &       0.3642  &        0.356     &     1.022  &         0.307        &       -0.334    &        1.062     \\
+\textbf{econEval}               &      43.4219  &        2.681     &    16.196  &         0.000        &       38.166    &       48.678     \\
+\textbf{mode}                   &      -0.4723  &        0.381     &    -1.241  &         0.215        &       -1.218    &        0.274     \\
+\textbf{prepost}                &       0.8758  &        0.643     &     1.361  &         0.174        &       -0.386    &        2.137     \\
+\textbf{sp\_serv}               &      -0.1628  &        0.136     &    -1.193  &         0.233        &       -0.430    &        0.105     \\
+\textbf{sp\_serv\_biden}        &      -0.7088  &        0.114     &    -6.243  &         0.000        &       -0.931    &       -0.486     \\
+\textbf{sp\_serv\_trump}        &       0.6436  &        0.112     &     5.743  &         0.000        &        0.424    &        0.863     \\
+\textbf{jobs\_living}           &       0.1109  &        0.123     &     0.900  &         0.368        &       -0.131    &        0.353     \\
+\textbf{jobs\_living\_biden}    &      -0.2042  &        0.126     &    -1.621  &         0.105        &       -0.451    &        0.043     \\
+\textbf{jobs\_living\_trump}    &      -0.1953  &        0.129     &    -1.514  &         0.130        &       -0.448    &        0.058     \\
+\textbf{envir\_business}        &       1.3809  &        0.128     &    10.811  &         0.000        &        1.130    &        1.631     \\
+\textbf{envir\_business\_biden} &      -0.2280  &        0.129     &    -1.774  &         0.076        &       -0.480    &        0.024     \\
+\textbf{envir\_business\_trump} &      -0.7760  &        0.130     &    -5.971  &         0.000        &       -1.031    &       -0.521     \\
+\textbf{abortion}               &      -0.6234  &        0.188     &    -3.314  &         0.001        &       -0.992    &       -0.255     \\
+\textbf{abortion\_salience}     &       0.1242  &        0.132     &     0.944  &         0.345        &       -0.134    &        0.382     \\
+\textbf{abortion\_biden}        &      -0.7885  &        0.205     &    -3.843  &         0.000        &       -1.191    &       -0.386     \\
+\textbf{abortion\_trump}        &       0.4399  &        0.193     &     2.281  &         0.023        &        0.062    &        0.818     \\
+\textbf{bible}                  &      -0.6253  &        0.322     &    -1.939  &         0.053        &       -1.257    &        0.007     \\
+\textbf{adjust\_change}         &      -0.1111  &        0.145     &    -0.764  &         0.445        &       -0.396    &        0.174     \\
+\textbf{family\_ties}           &      -0.0995  &        0.088     &    -1.127  &         0.260        &       -0.273    &        0.074     \\
+\textbf{covid\_approval}        &      -9.8876  &        0.248     &   -39.897  &         0.000        &      -10.373    &       -9.402     \\
+\textbf{covid\_response\_speed} &      -1.0427  &        0.236     &    -4.416  &         0.000        &       -1.506    &       -0.580     \\
+\textbf{mail\_in\_attitude}     &       0.6811  &        0.101     &     6.721  &         0.000        &        0.482    &        0.880     \\
+\textbf{police\_treat}          &       1.3278  &        0.171     &     7.777  &         0.000        &        0.993    &        1.662     \\
+\textbf{repro}                  &      19.7508  &        1.341     &    14.731  &         0.000        &       17.123    &       22.379     \\
+\textbf{turnout}                &      -4.6926  &        1.610     &    -2.915  &         0.004        &       -7.848    &       -1.537     \\
+\textbf{mail\_in}               &      -0.5477  &        0.225     &    -2.438  &         0.015        &       -0.988    &       -0.107     \\
+\textbf{stateFIPS}              &      -0.0114  &        0.010     &    -1.120  &         0.263        &       -0.031    &        0.009     \\
+\textbf{attention\_poli}        &      -0.5025  &        0.176     &    -2.862  &         0.004        &       -0.847    &       -0.158     \\
+\textbf{age}                    &      -0.0369  &        0.012     &    -3.147  &         0.002        &       -0.060    &       -0.014     \\
+\textbf{marital}                &      -0.0693  &        0.095     &    -0.728  &         0.467        &       -0.256    &        0.117     \\
+\textbf{educ}                   &      -0.4157  &        0.282     &    -1.477  &         0.140        &       -0.968    &        0.136     \\
+\textbf{educ5}                  &       0.9405  &        0.519     &     1.811  &         0.070        &       -0.078    &        1.959     \\
+\textbf{race}                   &       0.1217  &        0.136     &     0.893  &         0.372        &       -0.145    &        0.389     \\
+\textbf{gender}                 &       0.6101  &        0.349     &     1.746  &         0.081        &       -0.075    &        1.295     \\
+\textbf{income}                 &      -0.0361  &        0.030     &    -1.214  &         0.225        &       -0.094    &        0.022     \\
+\textbf{ideology}               &       2.4434  &        0.173     &    14.115  &         0.000        &        2.104    &        2.783     \\
+\textbf{religion}               &       0.3251  &        0.154     &     2.112  &         0.035        &        0.023    &        0.627     \\
+\textbf{union}                  &      -0.4667  &        0.474     &    -0.984  &         0.325        &       -1.397    &        0.463     \\
+\textbf{trans}                  &      -0.1062  &        0.111     &    -0.960  &         0.337        &       -0.323    &        0.111     \\
+\textbf{immigration}            &      -9.6936  &        0.235     &   -41.198  &         0.000        &      -10.155    &       -9.232     \\
+\textbf{gun\_diff}              &       1.6220  &        0.214     &     7.566  &         0.000        &        1.202    &        2.042     \\
+\textbf{offensive\_language}    &       0.6154  &        0.185     &     3.331  &         0.001        &        0.253    &        0.978     \\
+\textbf{harassment}             &      -0.1704  &        0.221     &    -0.770  &         0.441        &       -0.604    &        0.263     \\
+\textbf{no\_children}           &      -0.3251  &        0.438     &    -0.742  &         0.458        &       -1.184    &        0.534     \\
+\textbf{arrested}               &      -0.8247  &        0.443     &    -1.862  &         0.063        &       -1.693    &        0.043     \\
+\textbf{feminist}               &       0.3310  &        0.239     &     1.384  &         0.166        &       -0.138    &        0.800     \\
+\textbf{flag}                   &      -1.0303  &        0.380     &    -2.710  &         0.007        &       -1.775    &       -0.285     \\
+\textbf{shark}                  &       1.7255  &        2.270     &     0.760  &         0.447        &       -2.725    &        6.176     \\
+\textbf{family\_importance}     &      -0.0995  &        0.088     &    -1.127  &         0.260        &       -0.273    &        0.074     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 605.120 & \textbf{  Durbin-Watson:     } &    1.989  \\
+\textbf{Prob(Omnibus):} &   0.000 & \textbf{  Jarque-Bera (JB):  } & 3091.112  \\
+\textbf{Skew:}          &   0.155 & \textbf{  Prob(JB):          } &     0.00  \\
+\textbf{Kurtosis:}      &   6.030 & \textbf{  Cond. No.          } & 1.03e+16  \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. \newline
+ [2] The smallest eigenvalue is 3.21e-25. This might indicate that there are \newline
+ strong multicollinearity problems or that the design matrix is singular.
